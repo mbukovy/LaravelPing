@@ -12,7 +12,7 @@ class PingController extends Controller
     public function store(Request $request): JsonResponse
     {
         $validated = $request->validate([
-            'uuid' => ['required', 'string'],
+            'uuid' => ['required', 'uuid'],
             'battery_percent' => ['required', 'numeric', 'min:0', 'max:100'],
         ]);
 
