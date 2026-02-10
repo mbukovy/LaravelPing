@@ -2,6 +2,8 @@
 
 **Interview task.** Small Laravel app that accepts device “ping” data (UUID + battery %) via a web form and stores it via the API.
 
+<img width="1020" height="676" alt="image" src="https://github.com/user-attachments/assets/53b8aef0-6302-4182-9090-0aa1dc5680c1" />
+
 ## Run
 
 ```bash
